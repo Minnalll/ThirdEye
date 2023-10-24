@@ -1,7 +1,6 @@
 package com.thirdeye.employeeservice.model;
 
 import java.time.LocalDate;
-import java.util.List;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -10,20 +9,15 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Employee {
+public class Address {
 	
-	private String mongoId;
-	
-	private String empId;
-	
-	private String name;
-	
-	private LocalDate dob;
-	
-	private List<Address> address;
-	
-	private List<Contact> contact;
-	
+	private String addressLine1;
+	private String addressLine2;
+	private String addressLine3;
+	private String city;
+	private String state;
+	private String country;
+	private String zipCode;
 	private LocalDate createdAt;
 	
 	private LocalDate updatedAt;
