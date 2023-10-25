@@ -1,4 +1,4 @@
-package com.thirdeye.employeeservice.model;
+package com.thirdeye.employeeservice.dto;
 
 import java.time.LocalDateTime;
 
@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Address {
+public class AddressRequestDTO {
 	
 	private String addressLine1;
 	private String addressLine2;
@@ -18,7 +18,6 @@ public class Address {
 	private String state;
 	private String country;
 	private String zipCode;
-//	private LocalDateTime createdAt;
-//	
-//	private LocalDateTime updatedAt;
+	private LocalDateTime createdAt;	
+	private LocalDateTime updatedAt;
 }

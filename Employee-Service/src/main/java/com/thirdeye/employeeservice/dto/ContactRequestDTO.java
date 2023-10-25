@@ -1,4 +1,4 @@
-package com.thirdeye.employeeservice.model;
+package com.thirdeye.employeeservice.dto;
 
 import java.time.LocalDateTime;
 
@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Contact {
+public class ContactRequestDTO {
 	
 	private String contactType;
 	
@@ -19,5 +19,4 @@ public class Contact {
 //	
 //	private LocalDateTime updatedAt;
 	
-
 }
